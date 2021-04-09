@@ -86,9 +86,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
        KC_ESC,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX,   RESET,                      CL_NORM, LCG_NRM, KC_CAPS,   DF(1),   DF(0),  KC_F12,\
+      RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX,   RESET,                      CL_NORM, LAG_NRM, KC_CAPS,   DF(1),   DF(0),  KC_F12,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX,   RESET,                      CL_SWAP, LCG_SWP, KC_VOLD, KC_VOLU, KC_MUTE, XXXXXXX,\
+      RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX,   RESET,                      CL_SWAP, LAG_SWP, KC_VOLD, KC_VOLU, KC_MUTE, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LALT,   MO(4),  KC_SPC,     KC_ENT,   MO(4), KC_RGUI \
                                       //`--------------------------'  `--------------------------'
